@@ -1,0 +1,73 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="object" />
+          <option value="id" />
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="users.models.Profile.objects" />
+          <option value="django.db.models.fields.files.ImageField.path" />
+          <option value="django.db.models.fields.related.OneToOneField.email" />
+          <option value="myBlogApp.views.PostDeleteView.as_view" />
+          <option value="myBlogApp.models.Post.objects" />
+          <option value="django.db.models.ChoiceField" />
+          <option value="users.models.PersonalInformation.objects" />
+          <option value="django.db.models.fields.related.OneToOneField.first_name" />
+          <option value="users.forms.PersonalInformationForm.objects" />
+          <option value="store.models.Order.first_name" />
+          <option value="store.models.Order.last_name" />
+          <option value="users.models.PersonalInformation.DoesNotExist" />
+          <option value="str.close" />
+          <option value="store.models.Product.objects" />
+          <option value="store.models.Category.*" />
+          <option value="profiles.models.Profile.objects" />
+          <option value="bloodbanks.models.Donor.objects" />
+          <option value="profiles.models.Profile.DoesNotExist" />
+          <option value="object.*" />
+          <option value="bloodbanks.models.Donor.DoesNotExist" />
+          <option value="investment.models.balance" />
+          <option value="django.db.models.fields.DecimalField.*" />
+          <option value="blog.models.BlogPost.objects" />
+          <option value="blog.models.BlogPost.DoesNotExist" />
+          <option value="blogapp.models.Post.objects" />
+          <option value="blogapp.forms.CommentForm.save" />
+          <option value="todoapp.models.In" />
+          <option value="todoapp.models.Task.objects" />
+          <option value="django.db.models.fields.DateField.date" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

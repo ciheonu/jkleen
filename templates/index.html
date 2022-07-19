@@ -1,0 +1,654 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Cleaning Company Lagos | Commercial &amp; Domestic Cleaning | J-KLEEN
+      LIMITED
+    </title>
+    <meta
+      name="description"
+      content="J-Kleen is a trusted &amp; accredited cleaning company in Lagos. We have been providing professional commercial &amp; domestic cleaning services."
+    />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Cleaning Company Lagos | Commercial &amp; Domestic Cleaning | J-Kleen"
+    />
+    <meta
+      property="og:description"
+      content="J-Kleen is a trusted &amp; accredited cleaning company in Lagos. We have been providing professional commercial &amp; domestic cleaning services."
+    />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="J-Kleen" />
+    <meta property="article:publisher" content="" />
+    <meta
+      property="article:modified_time"
+      content="2022-05-23T14:46:42+00:00"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+
+    <!-- Favicon -->
+    <link href="{% static 'img/J SLEEK LOGO (1).ico' %}" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <script src="//code.jivosite.com/widget/mYFydcdhSM" async></script>
+
+  </head>
+
+  <body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0"></div>
+          <div class="col-md-6 text-center text-lg-right">
+            <div class="d-inline-flex align-items-center">
+              <a class="text-white px-3" href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="text-white px-3" href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="text-white px-3" href="">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a class="text-white px-3" href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="text-white pl-3" href="">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+      <div
+        class="container-lg position-relative p-0 px-lg-3"
+        style="z-index: 9"
+      >
+        <nav
+          class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5"
+        >
+          <a href="" class="navbar-brand">
+            <h1 class="m-0 text-secondary">
+              <span class="text-primary">J</span>-KLEEN
+            </h1>
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between px-3"
+            id="navbarCollapse"
+          >
+            <div class="navbar-nav ml-auto py-0">
+              <a href="{% url 'home' %}" class="nav-item nav-link active">Home</a>
+              <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
+              <a href="{% url 'service' %}" class="nav-item nav-link">Services</a>
+              <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+      <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="{% static 'img/carousel-1.jpg' %}" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h4 class="text-white text-uppercase mb-md-3">
+                  Cleaning Services
+                </h4>
+                <h1 class="display-3 text-white mb-md-4">
+                  Best For Janitorial Services
+                </h1>
+                <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                  >Try Us Today</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="{% static 'img/carousel-2.jpg' %}" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h4 class="text-white text-uppercase mb-md-3">
+                  Home / Residential Cleaning
+                </h4>
+                <h1 class="display-3 text-white mb-md-4">
+                  Highly Professional Staff
+                </h1>
+                <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                  >Try Us Today</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#header-carousel"
+          data-slide="prev"
+        >
+          <div class="btn btn-secondary" style="width: 45px; height: 45px">
+            <span class="carousel-control-prev-icon mb-n2"></span>
+          </div>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#header-carousel"
+          data-slide="next"
+        >
+          <div class="btn btn-secondary" style="width: 45px; height: 45px">
+            <span class="carousel-control-next-icon mb-n2"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Contact Info Start -->
+    <div class="container-fluid contact-info mt-5 mb-4">
+      <div class="container" style="padding: 0 30px">
+        <div class="row">
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0"
+            style="height: 100px"
+          >
+            <div class="d-inline-flex">
+              <i class="fa fa-2x fa-map-marker-alt text-white m-0 mr-3"></i>
+              <div class="d-flex flex-column">
+                <h5 class="text-white font-weight-medium">Our Location</h5>
+                <p class="m-0 text-white">
+                  7, Femi Sobowale Street, Ikorodu, Lagos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0"
+            style="height: 100px"
+          >
+            <div class="d-inline-flex text-left">
+              <i class="fa fa-2x fa-envelope text-white m-0 mr-3"></i>
+              <div class="d-flex flex-column">
+                <h5 class="text-white font-weight-medium">Email Us</h5>
+                <p class="m-0 text-white">mail@jkleen.com</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0"
+            style="height: 100px"
+          >
+            <div class="d-inline-flex text-left">
+              <i class="fa fa-2x fa-phone-alt text-white m-0 mr-3"></i>
+              <div class="d-flex flex-column">
+                <h5 class="text-white font-weight-medium">Call Us</h5>
+                <p class="m-0 text-white">+234 703-506-3868</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Info End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container pt-0 pt-lg-4">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <img class="img-fluid" src="{% static 'img/about.jpeg' %}" alt="" />
+          </div>
+          <div class="col-lg-7 mt-5 mt-lg-0 pl-lg-5">
+            <h6 class="text-secondary text-uppercase font-weight-medium mb-3">
+              Learn About Us
+            </h6>
+            <h1 class="mb-4">
+              Cleaning commercial, retail and domestic properties
+            </h1>
+            <h5 class="font-weight-medium font-italic mb-4">
+              JKleen is growing rapidly to become the Nigeria's most popular
+              cleaning company, specialising in domestic, commercial and retail
+              operations. Over time, JKleen has grown in Lagos, and has a large
+              number of cleaners and of course thousands of happy customers. The
+              company has succeeded so tremendously over time..
+            </h5>
+            <p class="mb-2">
+              We have a fantastic team of cleaners, who are matched to our
+              clients according to their bespoke needs. All of our trusted
+              cleaners are experienced, personally interviewed and of course
+              reference and fidelity checked. Our cleaners work to the very
+              highest possible standards, and our thousands and thousands of
+              extremely happy customers are testament to that.
+            </p>
+            <div class="row">
+              <div class="col-sm-6 pt-3">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-check text-primary mr-2"></i>
+                  <p class="text-secondary font-weight-medium m-0">
+                    Janitorial Cleaning
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6 pt-3">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-check text-primary mr-2"></i>
+                  <p class="text-secondary font-weight-medium m-0">
+                    Residential Cleaning
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6 pt-3">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-check text-primary mr-2"></i>
+                  <p class="text-secondary font-weight-medium m-0">
+                    Fumigation and Pest Control
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6 pt-3">
+                <div class="d-flex align-items-center">
+                  <i class="fa fa-check text-primary mr-2"></i>
+                  <p class="text-secondary font-weight-medium m-0">
+                    Hotel Cleaning
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5 pb-3">
+      <div class="container">
+        <h6
+          class="text-secondary text-uppercase text-center font-weight-medium mb-3"
+        >
+          Our Services
+        </h6>
+        <h1 class="display-4 text-center mb-5">What We Offer</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 pb-1">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+              style="height: 300px"
+            >
+              <div
+                class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+                style="width: 100px; height: 100px"
+              >
+                <i class="fas fa-3x fa-hotel text-secondary"></i>
+              </div>
+              <h4 class="font-weight-bold m-0">Hotel Cleaning</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pb-1">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+              style="height: 300px"
+            >
+              <div
+                class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+                style="width: 100px; height: 100px"
+              >
+                <i class="fas fa-3x fa-industry text-secondary"></i>
+              </div>
+              <h4 class="font-weight-bold m-0">Post-Construction Cleaning</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pb-1">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+              style="height: 300px"
+            >
+              <div
+                class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+                style="width: 100px; height: 100px"
+              >
+                <i class="fa fa-3x fa-home text-secondary"></i>
+              </div>
+              <h4 class="font-weight-bold m-0">Residential Cleaning</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pb-1">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+              style="height: 300px"
+            >
+              <div
+                class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+                style="width: 100px; height: 100px"
+              >
+                <i class="fa fa-3x fa-hospital-alt text-secondary"></i>
+              </div>
+              <h4 class="font-weight-bold m-0">Hospital Cleaning</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-0 my-lg-5 pt-0 pt-lg-5 pr-lg-5">
+            <h6 class="text-secondary text-uppercase font-weight-medium mb-3">
+              Our Features
+            </h6>
+            <h1 class="mb-4">Why Choose Us</h1>
+            <p>
+              We work with leading names in Commercial, Retail, Construction,
+              Education, Healthcare, Leisure, IT, Property Management, Social
+              Housing and Industrial. Priding ourselves on providing tailored
+              cleaning services built on openness and trust. Working closely
+              with our customers we're committed to 100% satisfaction, by
+              continually listening to their requirements and aligning our
+              services to their needs. You can only maintain a great reputation
+              by consistently delivering on your promises and we work hard to do
+              exactly that. We are able to respond quickly to customer demands
+              and can mobilise a cleaning contract faster than the majority of
+              our competitors - making us a valuable asset to many clients.
+            </p>
+            <div class="row">
+              <div class="col-sm-6 mb-4">
+                <h1 class="text-secondary" data-toggle="counter-up">2</h1>
+                <h5 class="font-weight-bold">Years Expereince</h5>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <h1 class="text-secondary" data-toggle="counter-up">50</h1>
+                <h5 class="font-weight-bold">Expert Worker</h5>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <h1 class="text-secondary" data-toggle="counter-up">172</h1>
+                <h5 class="font-weight-bold">Happy Clients</h5>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <h1 class="text-secondary" data-toggle="counter-up">2490</h1>
+                <h5 class="font-weight-bold">Cleaning Services</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center bg-secondary h-100 py-5 px-3"
+            >
+              <i class="fa fa-5x fa-certificate text-white mb-5"></i>
+              <h1 class="display-1 text-white mb-3">2+</h1>
+              <h1 class="text-white m-0">Years Experience</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Working Process Start -->
+    <!-- Working Process End -->
+
+    <!-- Pricing Plan End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h6
+          class="text-secondary text-uppercase text-center font-weight-medium mb-3"
+        >
+          Testimonial
+        </h6>
+        <h1 class="display-4 text-center mb-5">Our Clients Say</h1>
+        <div class="owl-carousel testimonial-carousel">
+          <div class="testimonial-item">
+            <img
+              class="position-relative rounded-circle bg-white shadow mx-auto"
+              src="{% static 'img/testimonial-1.jpg' %}"
+              style="
+                width: 100px;
+                height: 100px;
+                padding: 12px;
+                margin-bottom: -50px;
+                z-index: 1;
+              "
+              alt=""
+            />
+            <div class="bg-light text-center p-4 pt-0">
+              <h5 class="font-weight-medium mt-5">Anaele Henry</h5>
+              <p class="text-muted font-italic">Importer</p>
+              <p class="m-0">
+                Excellent service. A great convenience. I would highly recommend
+                this service to anyone who is busy and is looking to keep on top
+                of all those household tasks that can build up over time.
+                Efficient and thorough, with good customer service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img
+              class="position-relative rounded-circle bg-white shadow mx-auto"
+              src="{% static 'img/testimonial-2.jpg' %}"
+              style="
+                width: 100px;
+                height: 100px;
+                padding: 12px;
+                margin-bottom: -50px;
+                z-index: 1;
+              "
+              alt=""
+            />
+            <div class="bg-light text-center p-4 pt-0">
+              <h5 class="font-weight-medium mt-5">Mildred Joel</h5>
+              <p class="text-muted font-italic">Actress</p>
+              <p class="m-0">
+                Dear JKleen, I've just arrived home and the flat is absolutely
+                spotless. Thank you so much for arranging the exit clean for us,
+                we really do appreciate it. Please pass on our thanks to the
+                cleaning team, they did a stellar job! Have a lovely evening!
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img
+              class="position-relative rounded-circle bg-white shadow mx-auto"
+              src="{% static 'img/testimonial-3.jpg' %}"
+              style="
+                width: 100px;
+                height: 100px;
+                padding: 12px;
+                margin-bottom: -50px;
+                z-index: 1;
+              "
+              alt=""
+            />
+            <div class="bg-light text-center p-4 pt-0">
+              <h5 class="font-weight-medium mt-5">Sydney Njoku</h5>
+              <p class="text-muted font-italic">Contractor</p>
+              <p class="m-0">
+                Very professional company, from first call to completion of the
+                job, Thank you!
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img
+              class="position-relative rounded-circle bg-white shadow mx-auto"
+              src="{% static 'img/testimonial-4.jpg' %}"
+              style="
+                width: 100px;
+                height: 100px;
+                padding: 12px;
+                margin-bottom: -50px;
+                z-index: 1;
+              "
+              alt=""
+            />
+            <div class="bg-light text-center p-4 pt-0">
+              <h5 class="font-weight-medium mt-5">Victoria</h5>
+              <p class="text-muted font-italic">Profession</p>
+              <p class="m-0">
+                Very professional company, from first call to completion of the
+                job, Thank you!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Blog End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5"
+    >
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-6 mb-5">
+          <a href=""
+            ><h1 class="text-secondary mb-3">
+              <span class="text-white">J</span>-KLEEN
+            </h1></a
+          >
+          <p>
+            We at JKleen provide high-quality cleaning services to residents and
+            business owners in London. Our cleaners are vetted and insured,
+            trained to deal with any task – from carpet or domestic cleaning to
+            end of tenancy cleaning. Our simple booking process allows you to
+            get a cleaner fast and easy. Emergency booking and same day cleaning
+            now available!
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a
+              class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <h4 class="text-white mb-4">Get In Touch</h4>
+          <p>
+            We always treat the job with the same level of commitment and
+            professionalism whether you are a one-off clean or a major ongoing
+            contract.
+          </p>
+          <p>
+            <i class="fa fa-map-marker-alt mr-2"></i>7, Femi Sobowale Street,
+            Ikorodu, Lagos.
+          </p>
+          <p><i class="fa fa-phone-alt mr-2"></i>0803777505, 07035063868</p>
+          <p><i class="fa fa-envelope mr-2"></i>mail@jkleen.com</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <h4 class="text-white mb-4">Quick Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Home</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>About Us</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Services</a
+            >
+            <a class="text-white" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
+      <p class="m-0 text-center text-white">
+        &copy;
+        <a class="text-white font-weight-medium" href="#">J-KLEEN LIMITED</a>.
+        All Rights Reserved. Designed by Chris
+      </p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+    <script src="{% static 'mail/contact.js' %}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
